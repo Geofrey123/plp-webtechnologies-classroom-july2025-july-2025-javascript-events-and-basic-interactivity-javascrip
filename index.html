@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raballah Ventures Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="toggleMode" class="dm">Dark Mode</button>
+
+   <section class="header">
+    <div id="myBox" class="header-text">
+        <h1>Raballah Ventures Solution</h1>
+        <p id="hoverText">Welcome to Raballah Ventures Solution. 
+           <br>We provide innovative solutions for your business needs.
+        </p>
+
+        <button id="myButton" class="btn">Know More..</button>
+    </div>
+    <div>
+        
+   </section>
+   <section>
+    <div>
+
+        <form id="myForm" class="fm" action="#" method="#">
+            <label for="username">User Name:</label>
+            <input type="text" id="username" name="name">
+            <div class="error" id="nameError">Name is required (at least 2 characters)</div>
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <div class="error" id="emailError">Enter a valid email</div>
+
+            <br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword">
+            <div class="error" id="passwordError">Password must be at least 6 characters</div>
+            <div class="error" id="confirmError"></div>
+            <br><br>
+
+            <label for="Gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">Male
+            <input type="radio" id="female" name="gender" value="female">Female
+            <br><br>
+
+            <label for="country">Country:</label>
+
+            <Select id="country" name="country">
+                <option value="">--Select Country--</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Uganda">Uganda</option>
+                <option value="South Africa">South Africa</option>
+
+            </Select>
+            <br><br>
+
+            <label for="comments">Comments:</label><br>
+            <textarea id="comments" name="comments" rows="4" cols="50">
+            </textarea>
+            <br><br>
+
+            <input onclick="" type="submit" value="Submit">
+            <div id="formSuccess" class="success"></div>
+
+        </form>
+    </div>
+   </section>
+   
+
+   <script src="scripts.js"></script>
+</body>
+</html>
